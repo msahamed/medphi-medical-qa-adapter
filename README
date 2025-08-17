@@ -2,6 +2,8 @@
 
 The goal of this assignment is to Develop a medical question-answering system utilizing the provided dataset containing medical information. More specifically create a model that can effectively answer user queries related to medical diseases.
 
+Since the dataset contains Question and Answer pairs, I will use this information to fine-tune a pre-trained language model. More specifically I will use instruction tuning to adapt the model to the specific task of medical question answering.
+
 ## Sample Data
 **Question** : What is (are) Common variable immunodeficiency ?
 **Answer**: Common variable immunodeficiency (CVID) is a group of disorders in which the immune system cannot make antibodies against agents that cause infection (such as bacteria). CVID is characterized by low levels of most or all of the immunoglobulin (Ig) classes. This causes affected people to get frequent infections, particularly in the sinuses, lungs, and digestive tract. Symptoms most commonly begin in early adulthood but have been found in children as young as age two. While in most cases the cause of CVID is unknown, it has been associated with changes (mutations) in at least 10 genes. About 10% of cases are due to mutations in the TNFRSF13B gene. Treatment for CVID includes Ig replacement therapy, which stops the cycle of recurrent infections.
