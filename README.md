@@ -67,6 +67,9 @@ The model is not super big, but I still used `BitsAndBytesConfig` to reduce the 
 
 For more details of the training see the notebook.
 
+And this is the link for fine tuned adapter in Hugging face:
+https://huggingface.co/sabber/medphi-medical-qa-adapter/tree/main
+
 ## Evaluation
 
 To evaluate the model performance, I wanted to use BLEU and ROUGE, but for some reason, GPU was out of memory when evaluating the model. So I stuck to the default cross-entropy loss for monitoring. Below is the first few steps performance:
